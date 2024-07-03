@@ -12,4 +12,4 @@
 
 7) Make an awesome website, inspire!
 
-8) Add the google translate widget
+8) Add the google translate widget?
