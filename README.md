@@ -13,6 +13,7 @@ Setup---------------------------------------------------------------------------
 7) now you can stage and commit your edits
 
 Todo-------------------------------------------------------------------------------------------------------------------------------------------
+
 8) Migrate all information and capabilities from https://greenmoluccas.id/
 9) use google for fourms, sign ups, data, etc.
 
