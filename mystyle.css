@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background: rgb(91, 53, 32); /* Deep brown color inspired by Ambon's earthy tones */
+    position: relative;
+    font-family: Arial, sans-serif; /* Generic font family */
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+h1 {
+    color: #1bac4e; /* Deep forest green color for headers */
+    font-size: 45px;
+    margin-top: 50px; /* Create space between header and content */
+}
+
+p {
+    color: #1bac4e; /* Dark forest green color for paragraphs */
+    font-size: 20px;
+    text-align: center;
+}
+
+html {
+    text-align: center;
+}
+
+.style1 {
+    filter: grayscale(100%) brightness(40%) sepia(100%) hue-rotate(-50deg) saturate(600%) contrast(0.8);
+}
+
+.style2 {
+    filter: none;
+}
+
+.style3 {
+    filter: invert(100%);
+}
+
+.topnav {
+    font-size: 35px;
+    color: #1bac4e; /* Deep forest green color for navigation */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    color: white; /* White color for footer text */
+    background-color: #a47e48; /* Warm brown background inspired by Ambon's soil */
+    padding: 0px; /* Padding for footer content */
+}
+
+
+img {
+    max-width: 20%;
+    height: auto;
+    color: #7bdcb5; /* Light green for images */
+}
+
+a {
+    color: #1bac4e; /* Dark forest green for links */
+}
+
+.lightgallery1 a {
+    height: auto;
+}
+
+.lightgallery1 a img {
+    margin: 4px;
+    max-width: 20%;
+    height: auto;
+    background-color: rgb(212, 31, 85);
+}
+
+button {
+    border: none;
+    color: white; /* White color for button text */
+    background-color: #1bac4e; /* Deep forest green for button background */
+    padding: 15px 52px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer; /* Add cursor pointer to indicate interactivity */
+    border-radius: 5px; /* Rounded corners for button */
+    margin-top: 20px; /* Spacing above button */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        margin: 0;
+        background: rgb(91, 53, 32);
+        position: relative;
+        width: 100%;
+    }
+
+    canvas {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    button {
+        color: white;
+        background-color: #1bac4e;
+        padding: 30px 104px;
+        text-align: center;
+        display: inline-block;
+        font-size: 40px;
+        border: none;
+    }
+
+    p {
+        color: #1bac4e;
+        bottom: 0;
+        font-size: 40px;
+    }
+
+    .topnav {
+        font-size: 50px;
+        color: #1bac4e;
+    }
+}

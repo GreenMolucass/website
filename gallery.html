@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html id="foo">
+
+<head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics
+  <script async src="GET ONE URL TO PUT HERE"></script> -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="description" content="Green Moluccas Website.">
+  <meta name="keywords" content="Green Moluccas, Ambon">
+
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <title>
+    Green Moluccas ~ Gallery
+  </title>
+ <!-- <link rel="icon" href="images/IMG_0836-min.jpg">  -->
+
+  <script>
+    window.onload = function () {
+      const hash = window.location.hash;// location object has page url components
+      // defaults for no match
+
+         }
+
+  </script>
+
+  <link href="lightbox2-2.11.3/src/css/lightbox.css" rel="stylesheet" />
+
+
+</head>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="whatWeDo.html"> What We Do</a>
+    <a href="information.html"> Information</a>
+    <a href="gallery.html"> Gallery</a>
+    <a href="events.html"> Events</a>
+    <a href="articles.html"> Articles</a>
+    <a href="donate.html"> Donate</a>
+    <a href="volunteer.html"> Volunteer</a>
+</div>
+
+</header>
+
+<body>
+  <h1>
+    ~Green Moluccas~<br>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      var count = false;
+      function myFunction() {
+        if (count == false) {
+          document.getElementById('foo').setAttribute("class", "style1");
+          count = true;
+          count1 = false;
+        } else {
+          document.getElementById('foo').setAttribute("class", "style2");
+          count = false;
+          count1 = false;
+        }
+
+      }
+
+      var count1 = false;
+      function myFunction1() {
+        if (count1 == false) {
+          document.getElementById('foo').setAttribute("class", "style3");
+          count1 = true;
+          count = false;
+        } else {
+          document.getElementById('foo').setAttribute("class", "style2");
+          count = false;
+          count1 = false;
+        }
+
+      }
+    </script>
+
+<canvas id="canvas"></canvas>
+<script>
+  const canvas = document.getElementById('canvas');
+  const ctx = canvas.getContext('2d');
+  const goldenRatio = 1.61803398875;
+
+  function drawComplexChrysanthemumSpiral(scale, offsetX, offsetY, color) {
+    ctx.save();
+    ctx.translate(offsetX, offsetY);
+
+    for (let i = 0; i < 1500; i++) {
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 1;
+
+      const angle = i * goldenRatio * Math.PI;
+
+      const x1 = Math.cos(angle) * scale * i;
+      const y1 = Math.sin(angle) * scale * i;
+
+      const x2 = Math.cos(angle + 0.001) * scale * (i + 1);
+      const y2 = Math.sin(angle + 0.001) * scale * (i + 1);
+
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+
+      ctx.stroke();
+    }
+
+    for (let i = 0; i < 7777; i++) {
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 222;
+
+      const angle = -i * goldenRatio * Math.PI;
+
+      const x1 = Math.cos(angle) * scale * i;
+      const y1 = Math.sin(angle) * scale * i;
+
+      const x2 = Math.cos(angle - 0.0016) * scale * (i + 1.6);
+      const y2 = Math.sin(angle - 0.0016) * scale * (i + 1.6);
+
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+
+      ctx.stroke();
+    }
+
+    ctx.restore();
+  }
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const scale = canvas.width / 2500;
+    const offsetX = canvas.width / 2;
+    const offsetY = canvas.height / 2;
+
+    drawComplexChrysanthemumSpiral(scale, offsetX, offsetY, '#00001');
+  }screenTop
+
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+</script>
+<div class="lightgallery1"></div>
+<button id="load">More</button>
+<script>
+  var links = [
+    //add new images to bottom
+    "images/IMG_0789-min.jpg", "images/IMG_2133-min.JPG",  "images/IMG-5016-min.jpg", "images/IMG-5051-min.jpg",
+    "images/IMG-5066-min (1).JPG", "images/IMG-5114-min.JPG", "images/IMG-5186-min.jpg", "images/image_6487327-min.JPG",
+    "images/image_6487327 (1)-min.JPG", "images/IMG_0162-min.jpeg"
+    //add here ^^
+  ];
+
+  var $gallery = $(".lightgallery1").first();
+  var $loadMore = $("#load");
+
+  function loadMore(e) {
+
+    for (var i = 0; i < 8; i++) {
+
+      if (links.length) {
+
+        var src = links.pop();
+        var $link = $("<a>");
+        var $img = $("<img>");
+
+
+        $img.attr("src", src);
+        $link.attr("data-lightbox", 'image');
+        $link.attr("href", src).addClass("item");
+
+        $link.append($img);
+        $gallery.append($link);
+
+      } else {
+        $loadMore.hide();
+      }
+
+    }
+
+  }
+
+  $loadMore.on("click", loadMore);
+  loadMore();
+
+</script>
+
+  </h1>
+  <br>
+  <div class="footer">
+        Green Moluccas - Mewujudkan lingkungan yang hijau dan berkelanjutan serta tangguh terhadap bencana dan perubahan iklim untuk bumi yang layak huni bagi anak cucu. 
+        <br>
+        Contact Us - BTN Passo Indah Blok BII No 22, Teluk Ambon Baguala | +6282296287595 | info@greenmoluccas.id
+        <br>
+        Follow Us:
+        <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgreenmoluccas.id%2F%3Fhl%3Den&is_from_rle" target="_blank" style="color: white; text-decoration: none;">Instagram</a> |
+        <a href="https://www.youtube.com/channel/UCEOhMJRiOeGinYhbmwOsuWQ" target="_blank" style="color: white; text-decoration: none;">YouTube</a> |
+        <a href="https://www.linkedin.com/in/green-moluccas-7292b9257/" target="_blank" style="color: white; text-decoration: none;">LinkedIn</a>
+</div>
+  <script src="lightbox2-2.11.3/src/js/lightbox.js"></script>
+</body>
+
+</html>

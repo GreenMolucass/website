@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>
+        Green Moluccas ~ What We Do
+    </title>
+    <link rel="icon" href="images/IMG_0836-min.jpg">
+
+
+</head>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="whatWeDo.html"> What We Do</a>
+    <a href="information.html"> Information</a>
+    <a href="gallery.html"> Gallery</a>
+    <a href="events.html"> Events</a>
+    <a href="articles.html"> Articles</a>
+    <a href="donate.html"> Donate</a>
+    <a href="volunteer.html"> Volunteer</a>
+</div>
+</header>
+
+<body>
+    <h1>    ~Green Moluccas~<br>
+    </h1>
+<canvas id="canvas"></canvas>
+<a>What We Have
+    Green Moluccas memiliki berbagai aset sebagai jalan mewujudkkan visi menyelamatkan bumi.
+    
+    Moluccas Green School
+    Biasa disebut Sekolah Alam.  Sekolah berbasis lingkungan hidup. Materi ajar terintegrasi dengan pendidikan lingkungan hidup, dikemas secara menarik dan menyenangkan bagi anak-anak
+    
+    Bank Sampah Ambon Hijau
+    Menabung sampah pangkal selamat. 
+    
+    Ayo selamatkan bumi, bijaklah kita mengubah dan mengolah sampah menjadi berkah. Solusinya dengan menabung di Bank Sampah
+    
+    Mangrove Adoption
+    Bergabunglah  bersama Green Moluccas  sebagai aksi nyatamu mencintai, merawat, dan menjaga pesisir laut Maluku dengan cara adopsi Mangrove
+    
+    Kewang Cilik
+    Polisi anak untuk alam. Terpilih untuk menyuarakan visi dan misi Green Moluccas serta ikut berpatisipasi  menjaga dan melestarikan alam
+    
+    Bengkel Kreatif
+    Bengkel di mana segala kreatifitas dituangkan, dengan tugas menciptakan berbagai kreasi dari limbah/sampah hasil rumah tangga yang memiliki nilai ekonomis
+    
+    Mini Bus
+    Menghasilkan anak-anak kreatif sesuai talenta dan memperkenalkan berbisnis sejak dini. Les Privat, Berkebun untuk anak dan Daur Ulang oleh anak selanjutnya dapat dipasarkan.
+    Bank Sampah Ambon Hijau
+    Bank Sampah  adalah salah satu upaya untuk mengubah sampah menjadi lebih bernilai ekonomis. Layaknya Bank yang merupakan tempat menabung, Bank Sampah Ambon Hijau (BSAH) juga menerima tabungan dan memiliki nasabah. Bedanya, yang ditabung adalah sampah. Setiap orang boleh menjadi nasabah Bank Sampah. Dengan membawa sampah yang dimiliki, sudah bisa mendapat buku tabungan dan akan dicatat setiap transaksi yang dilakukan.
+    
+    
+    
+    Ada tiga jenis nasabah pada Bank ini, diantaranya nasabah kids, nasabah umum dan nasabah coorporate. Setiap jenis nasabah mempunyai biaya registerasi yang berbeda. Antara lain nasabah kids Rp 5.000, nasabah umum Rp 10.000 dan nasabah coorporate Rp 25.000
+    
+    
+    
+    Bank sampah Ambon Hijau, untuk pertama kalinya menerima nasabah pada tanggal 19 April 2019.  Sampai saat ini, nasabah bank sampah sudah berjumlah kurang lebih 200 nasabah, dengan jumlah tabungan sampah nasabah 12,456 ton. Selain nasabah, ada juga donatur sampah yang sampahnya didonasikan ke BSAH.
+    Aktivitas yang dilakukan di bank sampah mulai dari registerasi nasabah baru, penjemputan sampah, penimbangan, pencatatan, pemilahan dan pengepakan.  Selain itu bank sampah juga melakukan sosialisasi bank sampah dan pelatihan daur ulang sampah kepada masyarakat, istansi, dan lembaga keagamaan. 
+    Bank Sampah pernah mendapat kunjungan dari Kedutaan Besar Amerika Serikat. Bank sampah juga pernah mendapat kunjungan dari Yayasan Anak Muda Sentani Jayapura untuk magang dan mempelajari tentang pengelolaan sampah di bank sampah sekaligus juga melakukan pelatihan pemilahan sampah dan daur ulang sampah. 
+
+    Jenis-jenis sampah yang bisa ditabung adalah sampah plastik, (botol plastik, gelas plastik yang sekali pakai) tembaga, kuningan, besi, aluminium, tutup botol biru dan campuran, duplex (kertas makanan), majalah, karton dan HVS serta gen.
+
+    Bank sampah juga pernah melakukan kerjasama dengan beberapa instansi, perusahaan dan lembaga keagamaan, contohnya Dinas Lingkungan Hidup Kota Ambon / Provinsi Maluku, Klasis Pulau Ambon serta Pesantren Hidayatullah dan Shuffah Hizbullah (Program sosial Bank Indonesia - Pembentukan Bank Sampah di Liang dan Hitu), Nutrifood, dan Aqua Danone Indonesia (Kegiatan sosialisasi dan Pelatihan di desa Hukurilla).
+
+
+
+    Prestasi yang pernah diraih oleh Bank Sampah Ambon Hijau, antara lain Forum Group Discussion (FGD) Tahun 2019, Adipura Tahun 2019, Juara 3 Ide Terbaik untuk kegiatan Social Enterprise yang diselenggarakan oleh AISEC dalam program Kita Pulang Tahun 2020.
+
+
+  </a>
+<script>
+  const canvas = document.getElementById('canvas');
+  const ctx = canvas.getContext('2d');
+  const goldenRatio = 1.61803398875;
+
+  function drawComplexChrysanthemumSpiral(scale, offsetX, offsetY, color) {
+    ctx.save();
+    ctx.translate(offsetX, offsetY);
+
+    for (let i = 0; i < 1500; i++) {
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 1;
+
+      const angle = i * goldenRatio * Math.PI;
+
+      const x1 = Math.cos(angle) * scale * i;
+      const y1 = Math.sin(angle) * scale * i;
+
+      const x2 = Math.cos(angle + 0.001) * scale * (i + 1);
+      const y2 = Math.sin(angle + 0.001) * scale * (i + 1);
+
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+
+      ctx.stroke();
+    }
+
+    for (let i = 0; i < 7777; i++) {
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 222;
+
+      const angle = -i * goldenRatio * Math.PI;
+
+      const x1 = Math.cos(angle) * scale * i;
+      const y1 = Math.sin(angle) * scale * i;
+
+      const x2 = Math.cos(angle - 0.0016) * scale * (i + 1.6);
+      const y2 = Math.sin(angle - 0.0016) * scale * (i + 1.6);
+
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+
+      ctx.stroke();
+    }
+
+    ctx.restore();
+  }
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const scale = canvas.width / 2500;
+    const offsetX = canvas.width / 2;
+    const offsetY = canvas.height / 2;
+
+    drawComplexChrysanthemumSpiral(scale, offsetX, offsetY, '#00001');
+  }screenTop
+
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+</script>
+<div class="footer">
+    
+        Green Moluccas - Mewujudkan lingkungan yang hijau dan berkelanjutan serta tangguh terhadap bencana dan perubahan iklim untuk bumi yang layak huni bagi anak cucu. 
+        <br>
+        Contact Us - BTN Passo Indah Blok BII No 22, Teluk Ambon Baguala | +6282296287595 | info@greenmoluccas.id
+        <br>
+        Follow Us:
+        <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgreenmoluccas.id%2F%3Fhl%3Den&is_from_rle" target="_blank" style="color: white; text-decoration: none;">Instagram</a> |
+        <a href="https://www.youtube.com/channel/UCEOhMJRiOeGinYhbmwOsuWQ" target="_blank" style="color: white; text-decoration: none;">YouTube</a> |
+        <a href="https://www.linkedin.com/in/green-moluccas-7292b9257/" target="_blank" style="color: white; text-decoration: none;">LinkedIn</a>
+    
+</div>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>
+        Green Moluccas ~ Events
+    </title>
+    <link rel="icon" href="IMAGE">
+
+
+</head>
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="whatWeDo.html"> What We Do</a>
+    <a href="information.html"> Information</a>
+    <a href="gallery.html"> Gallery</a>
+    <a href="events.html"> Events</a>
+    <a href="articles.html"> Articles</a>
+    <a href="donate.html"> Donate</a>
+    <a href="volunteer.html"> Volunteer</a>
+</div>
+</header>
+
+<body>
+<canvas id="canvas"></canvas>
+<h1>    ~Green Moluccas~<br>
+</h1>
+<h1>Events List:</h1>
+<h1>none</h1>
+<script>
+  const canvas = document.getElementById('canvas');
+  const ctx = canvas.getContext('2d');
+  const goldenRatio = 1.61803398875;
+
+  function drawComplexChrysanthemumSpiral(scale, offsetX, offsetY, color) {
+    ctx.save();
+    ctx.translate(offsetX, offsetY);
+
+    for (let i = 0; i < 1500; i++) {
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 1;
+
+      const angle = i * goldenRatio * Math.PI;
+
+      const x1 = Math.cos(angle) * scale * i;
+      const y1 = Math.sin(angle) * scale * i;
+
+      const x2 = Math.cos(angle + 0.001) * scale * (i + 1);
+      const y2 = Math.sin(angle + 0.001) * scale * (i + 1);
+
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+
+      ctx.stroke();
+    }
+
+    for (let i = 0; i < 7777; i++) {
+      ctx.beginPath();
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 222;
+
+      const angle = -i * goldenRatio * Math.PI;
+
+      const x1 = Math.cos(angle) * scale * i;
+      const y1 = Math.sin(angle) * scale * i;
+
+      const x2 = Math.cos(angle - 0.0016) * scale * (i + 1.6);
+      const y2 = Math.sin(angle - 0.0016) * scale * (i + 1.6);
+
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+
+      ctx.stroke();
+    }
+
+    ctx.restore();
+  }
+
+  function resizeCanvas() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    const scale = canvas.width / 2500;
+    const offsetX = canvas.width / 2;
+    const offsetY = canvas.height / 2;
+
+    drawComplexChrysanthemumSpiral(scale, offsetX, offsetY, '#00001');
+  }screenTop
+
+  window.addEventListener('resize', resizeCanvas);
+  resizeCanvas();
+</script>
+<div class="footer">
+        Green Moluccas - Mewujudkan lingkungan yang hijau dan berkelanjutan serta tangguh terhadap bencana dan perubahan iklim untuk bumi yang layak huni bagi anak cucu. 
+        <br>
+        Contact Us - BTN Passo Indah Blok BII No 22, Teluk Ambon Baguala | +6282296287595 | info@greenmoluccas.id
+        <br>
+        Follow Us:
+        <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fgreenmoluccas.id%2F%3Fhl%3Den&is_from_rle" target="_blank" style="color: white; text-decoration: none;">Instagram</a> |
+        <a href="https://www.youtube.com/channel/UCEOhMJRiOeGinYhbmwOsuWQ" target="_blank" style="color: white; text-decoration: none;">YouTube</a> |
+        <a href="https://www.linkedin.com/in/green-moluccas-7292b9257/" target="_blank" style="color: white; text-decoration: none;">LinkedIn</a>
+</div>
+</body>
+
+</html>
