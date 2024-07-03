@@ -10,8 +10,8 @@
 
 6) now you can stage and commit your edits
 
-7) Make an awesome website, inspire!
-8) Migrate all information and capabilities from https://greenmoluccas.id/
-9) use google for fourms, sign ups, etc.
+7) Migrate all information and capabilities from https://greenmoluccas.id/
+8) use google for fourms, sign ups, data, etc.
 
-10) Add the google translate widget?
+9) Make an awesome website, inspire!
+10) Add the google translate widget? // make default indoneisan >> right now it is english because I have been working on it (-Ben the American)
