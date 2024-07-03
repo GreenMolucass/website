@@ -1,5 +1,6 @@
 1) create a github account
-1.5) install VS code
+
+2) install VS code
 
 3) install git: https://git-scm.com/download/win
 
