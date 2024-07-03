@@ -11,8 +11,8 @@
 6) now you can stage and commit your edits
 
 7) Make an awesome website, inspire!
-7.5) TRANSLATION
-how do i add the google translate widget
+
+8) how do i add the google translate widget
 ChatGPT
 ChatGPT
 Adding the Google Translate widget to your static HTML site hosted on GitHub Pages involves a few straightforward steps. Here’s how you can do it:
