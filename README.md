@@ -19,3 +19,4 @@ Todo----------------------------------------------------------------------------
 
 10) Make an awesome website, inspire!
 11) Add the google translate widget? // make default indoneisan >> right now it is english because I have been working on it (-Ben the American)
+12) Transfer the "greenmoluccas.id" domain name to this new site. Deactivate / stop paying for the old one.
