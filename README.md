@@ -7,11 +7,12 @@
 4) clone respository 'https://github.com/GreenMoluccas/website.git'
 
 5) sign into github on VS code: https://stackoverflow.com/questions/42318673/changing-the-git-user-inside-visual-studio-code
+6) (check edits in real time before commiting them by opening the .html file that you are working on locally from your File Explorer)
 
-6) now you can stage and commit your edits
+7) now you can stage and commit your edits
 
-7) Migrate all information and capabilities from https://greenmoluccas.id/
-8) use google for fourms, sign ups, data, etc.
+8) Migrate all information and capabilities from https://greenmoluccas.id/
+9) use google for fourms, sign ups, data, etc.
 
-9) Make an awesome website, inspire!
-10) Add the google translate widget? // make default indoneisan >> right now it is english because I have been working on it (-Ben the American)
+10) Make an awesome website, inspire!
+11) Add the google translate widget? // make default indoneisan >> right now it is english because I have been working on it (-Ben the American)
