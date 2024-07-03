@@ -11,3 +11,5 @@
 6) now you can stage and commit your edits
 
 7) Make an awesome website, inspire!
+
+8) Add the google translate widget
