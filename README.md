@@ -1,7 +1,11 @@
-install git: https://git-scm.com/download/win
+1) create a github account
 
-clone respository 'https://github.com/GreenMolucass/website.git'
+2) install git: https://git-scm.com/download/win
 
-sign into github on VS code: https://stackoverflow.com/questions/42318673/changing-the-git-user-inside-visual-studio-code
+3) clone respository 'https://github.com/GreenMolucass/website.git'
 
-now you can stage and commit your edits
+4) sign into github on VS code: https://stackoverflow.com/questions/42318673/changing-the-git-user-inside-visual-studio-code
+
+5) now you can stage and commit your edits
+
+6) Make an awesome website, inspire!
