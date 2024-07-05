@@ -17,7 +17,7 @@ canvas {
 h1 {
     color: #1bac4e; /* Deep forest green color for headers */
     font-size: 45px;
-    margin-top: 50px; /* Create space between header and content */
+    margin-top: 5px; /* Create space between header and content */
 }
 
 p {
