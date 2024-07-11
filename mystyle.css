@@ -15,15 +15,16 @@ canvas {
 }
 
 h1 {
-    color: #1bac4e; /* Deep forest green color for headers */
+    color: #20ca5c; /* Deep forest green color for headers */
     font-size: 45px;
     margin-top: 5px; /* Create space between header and content */
 }
 
 p {
-    color: #1bac4e; /* Dark forest green color for paragraphs */
+    color: #20ca5c; /* Dark forest green color for paragraphs */
     font-size: 30px;
-    text-align: center;
+    text-align: left;
+    padding: 20px;
 }
 
 html {
@@ -63,7 +64,7 @@ img {
 }
 
 a {
-    color: #1bac4e; /* Dark forest green for links */
+    color: #20ca5c; /* Dark forest green for links */
 }
 
 .lightgallery1 a {
@@ -80,7 +81,7 @@ a {
 button {
     border: none;
     color: white; /* White color for button text */
-    background-color: #1bac4e; /* Deep forest green for button background */
+    background-color: #20ca5c; /* Deep forest green for button background */
     padding: 15px 52px;
     text-align: center;
     display: inline-block;
@@ -91,11 +92,11 @@ button {
 }
 
 strong {
-    color: #1bac4e; /* Change text color to green */
+    color: #20ca5c; /* Change text color to green */
 }
 
 li {
-    color: #119740; /* Change text color to green */
+    color: #20ca5c; /* Change text color to green */
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
@@ -116,7 +117,7 @@ li {
 
     button {
         color: white;
-        background-color: #1bac4e;
+        background-color: #20ca5c;
         padding: 30px 104px;
         text-align: center;
         display: inline-block;
@@ -125,13 +126,13 @@ li {
     }
 
     p {
-        color: #1bac4e;
+        color: #20ca5c;
         bottom: 0;
         font-size: 40px;
     }
 
     .topnav {
         font-size: 50px;
-        color: #1bac4e;
+        color: #20ca5c;
     }
 }
