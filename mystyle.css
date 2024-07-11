@@ -43,7 +43,6 @@ html {
 .topnav a{
     text-decoration: none; /* Remove default underline */
     color: #c9ffe9;
-    padding: 0px;
     font-size: 38px;
     border-right: 1px solid #c9ffe9; /* Solid line between elements */
 padding-left: 4px;
