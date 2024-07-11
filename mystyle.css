@@ -37,15 +37,15 @@ html {
 }
 
 .topnav {
-    background-color: #a47e48;
+    background-color: #20ca5c;
     
 }
 .topnav a{
     text-decoration: none; /* Remove default underline */
-    color: #7bdcb5;
+    color: #c9ffe9;
     padding: 0px;
-    font-size: 40px;
-    border-right: 1px solid #7bdcb5; /* Solid line between elements */
+    font-size: 38px;
+    border-right: 1px solid #c9ffe9; /* Solid line between elements */
 padding-left: 4px;
 padding-right: 4px;
 }
@@ -58,8 +58,8 @@ padding-right: 4px;
     width: 100%;
     font-size: 15px;
     text-align: center;
-    color: #7bdcb5;
-    background-color: #a47e48; /* Warm brown background inspired by Ambon's soil */
+    color: #c9ffe9;
+    background-color: #20ca5c; /* Warm brown background inspired by Ambon's soil */
     padding: 0px; /* Padding for footer content */
 }
 
@@ -67,7 +67,7 @@ padding-right: 4px;
 img {
     max-width: 20%;
     height: auto;
-    color: #7bdcb5; /* Light green for images */
+    color: #c9ffe9; /* Light green for images */
 }
 
 a {
@@ -82,12 +82,12 @@ a {
     margin: 4px;
     max-width: 20%;
     height: auto;
-    background-color: rgb(212, 31, 85);
+    background-color: #c9ffe9;
 }
 
 button {
     border: none;
-    color: white; /* White color for button text */
+    color: #c9ffe9; /* White color for button text */
     background-color: #20ca5c; /* Deep forest green for button background */
     padding: 15px 52px;
     text-align: center;
@@ -123,7 +123,7 @@ li {
     }
 
     button {
-        color: white;
+        color: #c9ffe9;
         background-color: #20ca5c;
         padding: 30px 104px;
         text-align: center;
