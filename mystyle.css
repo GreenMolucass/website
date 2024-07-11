@@ -36,15 +36,22 @@ html {
     filter: none;
 }
 
-.topnav a {
-    text-decoration: none; /* Remove default underline */
+.topnav {
     background-color: #a47e48;
-    color: #7bdcb5;
-    padding: 2px;
-    font-size: 40px;
-
+    
 }
-
+.topnav a{
+    text-decoration: none; /* Remove default underline */
+    color: #7bdcb5;
+    padding: 0px;
+    font-size: 40px;
+    border-right: 1px solid #7bdcb5; /* Solid line between elements */
+padding-left: 4px;
+padding-right: 4px;
+}
+.topnav a:last-child {
+    border-right: none;
+}
 .footer {
     position: fixed;
     bottom: 0;
