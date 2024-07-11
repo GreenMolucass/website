@@ -35,10 +35,13 @@ html {
     filter: none;
 }
 
+.topnav a {
+    text-decoration: none; /* Remove default underline */
+    background-color: #a47e48;
+    color: #7bdcb5;
+    padding: 2px;
+    font-size: 40px;
 
-.topnav {
-    font-size: 35px;
-    color: #1bac4e; /* Deep forest green color for navigation */
 }
 
 .footer {
@@ -47,7 +50,7 @@ html {
     width: 100%;
     font-size: 15px;
     text-align: center;
-    color: white; /* White color for footer text */
+    color: #7bdcb5;
     background-color: #a47e48; /* Warm brown background inspired by Ambon's soil */
     padding: 0px; /* Padding for footer content */
 }
