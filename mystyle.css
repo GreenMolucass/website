@@ -43,14 +43,13 @@ html {
 .topnav a{
     text-decoration: none; /* Remove default underline */
     color: #c9ffe9;
-    font-size: 38px;
-    border-right: 1px solid #c9ffe9; /* Solid line between elements */
+    font-size: 36px;
+ /*   border-right: 1px solid #c9ffe9; /* Solid line between elements */
+   /* border-left: 1px solid #c9ffe9; /* Solid line between elements */
 padding-left: 4px;
 padding-right: 4px;
 }
-.topnav a:last-child {
-    border-right: none;
-}
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -145,11 +144,7 @@ li {
         text-decoration: none; /* Remove default underline */
         color: #c9ffe9;
         font-size: 50px;
-        border-right: 1px solid #c9ffe9; /* Solid line between elements */
     padding-left: 4px;
     padding-right: 4px;
-    }
-    .topnav a:last-child {
-        border-right: none;
     }
 }
