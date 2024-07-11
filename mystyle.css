@@ -55,7 +55,7 @@ padding-right: 4px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    font-size: 15px;
+    font-size: 17px;
     text-align: center;
     color: #c9ffe9;
     background-color: #20ca5c; /* Warm brown background inspired by Ambon's soil */
@@ -138,7 +138,18 @@ li {
     }
 
     .topnav {
+        background-color: #20ca5c;
+        
+    }
+    .topnav a{
+        text-decoration: none; /* Remove default underline */
+        color: #c9ffe9;
         font-size: 50px;
-        color: #20ca5c;
+        border-right: 1px solid #c9ffe9; /* Solid line between elements */
+    padding-left: 4px;
+    padding-right: 4px;
+    }
+    .topnav a:last-child {
+        border-right: none;
     }
 }
