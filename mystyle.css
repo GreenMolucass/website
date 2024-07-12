@@ -26,6 +26,7 @@ p {
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
+    background-color: rgba(152, 215, 153, 0.137)
 }
 
 html {
@@ -67,22 +68,28 @@ img {
     max-width: 20%;
     height: auto;
     color: #c9ffe9; /* Light green for images */
-}
+  }
 
-a {
+  a {
     color: #20ca5c; /* Dark forest green for links */
-}
+  }
 
-.lightgallery1 a {
+  .lightgallery1 a {
     height: auto;
-}
+  }
 
-.lightgallery1 a img {
+  .lightgallery1 a img {
     margin: 4px;
     max-width: 20%;
-    height: auto;
     background-color: #c9ffe9;
-}
+  }
+
+  /* New CSS for image dimensions */
+  .gallery-image {
+    width: 300px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    object-fit: cover; /* Ensures the image covers the specified dimensions */
+  }
 
 button {
     border: none;

@@ -114,53 +114,46 @@
 <div class="lightgallery1"></div>
 <button id="load">More</button>
 <script>
-  var links = [
-    //add new images to bottom
-    "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg",
-      "images/placeholder.jpg"
-    //add here ^^
-  ]
+var links = [
+  "images/trashbank.jpg",
+  "images/smallbag.jpeg",
+  "images/nursury.jpg",
+  "images/loadingtruck.jpeg",
+  "images/greened.jpg",
+  "images/bagmakers.jpeg",
+  "images/class.jpg",
+  "images/classroomrate.jpg",
+  "images/classteaching.jpg",
+  "images/teachingfloor.jpg"
+];
 
-  var $gallery = $(".lightgallery1").first();
-  var $loadMore = $("#load");
+var $gallery = $(".lightgallery1").first();
+var $loadMore = $("#load");
 
-  function loadMore(e) {
+function loadMore(e) {
+  for (var i = 0; i < 8; i++) {
+    if (links.length) {
+      var src = links.pop();
+      var $link = $("<a>");
+      var $img = $("<img>");
 
-    for (var i = 0; i < 8; i++) {
+      $img.attr("src", src);
+      $img.addClass("gallery-image"); // Add class for styling
 
-      if (links.length) {
+      $link.attr("data-lightbox", 'image');
+      $link.attr("href", src).addClass("item");
 
-        var src = links.pop();
-        var $link = $("<a>");
-        var $img = $("<img>");
-
-
-        $img.attr("src", src);
-        $link.attr("data-lightbox", 'image');
-        $link.attr("href", src).addClass("item");
-
-        $link.append($img);
-        $gallery.append($link);
-
-      } else {
-        $loadMore.hide();
-      }
-
+      $link.append($img);
+      $gallery.append($link);
+    } else {
+      $loadMore.hide();
     }
-
   }
+}
 
-  $loadMore.on("click", loadMore);
-  loadMore();
+$loadMore.on("click", loadMore);
+loadMore();
+
 
 </script>
 
