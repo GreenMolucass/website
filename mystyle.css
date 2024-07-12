@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    background: rgb(91, 53, 32); /* Deep brown color inspired by Ambon's earthy tones */
+    background: rgb(89, 44, 21); /* Deep brown color inspired by Ambon's earthy tones */
     position: relative;
     font-family: quicksand, sans-serif; /* Generic font family */
 }
@@ -24,7 +24,8 @@ p {
     color: #20ca5c; /* Dark forest green color for paragraphs */
     font-size: 30px;
     text-align: left;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 html {
