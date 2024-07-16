@@ -35,7 +35,19 @@
   </script>
 
   <link href="lightbox2-dev/src/css/lightbox.css" rel="stylesheet" />
+  <style>
+    /* CSS for layout */
+    .columns {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+    }
 
+    .left-column,
+    .right-column {
+      flex-basis: 45%; /* Adjust as needed */
+    }
+  </style>
 
 </head>
 <div class="topnav">
@@ -51,10 +63,47 @@
 
 </header>
 
-<body>
+<body>   
   <h1>Green Moluccas</h1>
-    <p style="text-align: center;     padding-left: 0px; padding-right: 0px;">Kalesang Neighborhood<br>Start small<br>Start with yourself<br>Start now<br>Because If not us, who else?<br>If not now, when?</p>
-  <img src="images/Green Moluccas Logo.png">
+  <div class="columns">
+    <div class="left-column">
+      <nav class="nav">
+      <div class="secondary-topnav">
+        <ul>
+          <a href="whatWeDo.html#green-school">Green School</a>
+          <a href="whatWeDo.html#green-waste-bank">Green Waste Bank</a>
+          <a href="whatWeDo.html#mangrove-adoption">Mangrove Adoption</a>
+          <a href="whatWeDo.html#creative-workshop">Creative Workshop</a>
+        </ul>
+      </div>
+      </nav>
+    </div>
+
+    <div class="center-content">
+      <p style="text-align: center; padding-left: 0px; padding-right: 0px;">
+        Kalesang Neighborhood<br>
+        Start small<br>
+        Start with yourself<br>
+        Start now<br>
+        Because If not us, who else?<br>
+        If not now, when?
+      </p>
+    </div>
+
+    <div class="right-column">
+      <nav class="nav">
+      <div class="secondary-topnav">
+        <ul>
+          <a href="whatWeDo.html#mini-bus">Mini Bus</a>
+          <a href="whatWeDo.html#private-tutoring">Private Tutoring & Gardening</a>
+          <a href="whatWeDo.html#ambon-green-waste-bank-details">Ambon Green Waste Bank Details</a>
+          <a href="whatWeDo.html#partnerships-achievements">Partnerships & Achievements</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>  <img src="images/Green Moluccas Logo.png">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <canvas id="canvas"></canvas>

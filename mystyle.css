@@ -74,6 +74,15 @@ img {
     color: #20ca5c; /* Dark forest green for links */
   }
 
+.nav a {
+    color: #ffffff; /* Dark forest green color for paragraphs */
+    font-size: 30px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+   /* background-color: #116b3157 */
+}
+
   .lightgallery1 a {
     height: auto;
   }
