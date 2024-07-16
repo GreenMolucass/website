@@ -15,7 +15,7 @@ Setup---------------------------------------------------------------------------
 
 Todo------------------------------------------------------------------------------------------------------------------------------------
 
-8) Migrate all information and capabilities from https://greenmoluccas.id/
+8) Migrate all information and capabilities (and photos!) from https://greenmoluccas.id/
 9) use google for fourms, sign ups, data, etc.
 
 10) Make an awesome website, inspire!
