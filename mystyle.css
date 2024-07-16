@@ -102,7 +102,7 @@ img {
 
 button {
     border: none;
-    color: #c9ffe9; /* White color for button text */
+    color: #ffffff; /* White color for button text */
     background-color: #20ca5c; /* Deep forest green for button background */
     padding: 15px 52px;
     text-align: center;
@@ -138,7 +138,7 @@ li {
     }
 
     button {
-        color: #c9ffe9;
+        color: #ffffff;
         background-color: #20ca5c;
         padding: 30px 104px;
         text-align: center;
