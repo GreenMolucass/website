@@ -176,6 +176,15 @@ li {
         text-align: center;
         color: #ffffff;
         background-color: #20ca5c; /* Warm brown background inspired by Ambon's soil */
-        padding: 0px; /* Padding for footer content */
+        padding: 0px; /* Padding for fo
+        oter content */
+    }
+    .nav a {
+        color: #ffffff; /* Dark forest green color for paragraphs */
+        font-size: 30px;
+        text-align: left;
+        padding-left: 20px;
+        padding-right: 20px;
+       /* background-color: #116b3157 */
     }
 }
