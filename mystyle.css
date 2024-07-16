@@ -21,12 +21,12 @@ h1 {
 }
 
 p {
-    color: #20ca5c; /* Dark forest green color for paragraphs */
+    color: #ffffff; /* Dark forest green color for paragraphs */
     font-size: 30px;
     text-align: left;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: #116b3157
+   /* background-color: #116b3157 */
 }
 
 html {
@@ -139,7 +139,7 @@ li {
     }
 
     p {
-        color: #20ca5c;
+        color: #ffffff;
         bottom: 0;
         font-size: 40px;
         text-align: left;
