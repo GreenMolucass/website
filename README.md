@@ -21,5 +21,6 @@ Todo----------------------------------------------------------------------------
 10) Make an awesome website, inspire!
 11) Add the google translate widget? Or any one that works // make default indoneisan >> right now it is english because I have been working on it (-Ben the American)
 12) Transfer the "greenmoluccas.id" domain name to this new site. Deactivate / stop paying for the old one. (I think it might be good to go to google analytics with the codegreenmoluccas email and change the URL to the new one).
+13) Loading screen for when the site has not loaded yet, display logo in middle of screen.
 
-13) Stuff like sitemap.xml, CNAME....
+14) Stuff like sitemap.xml, CNAME....
