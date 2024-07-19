@@ -124,7 +124,7 @@ li {
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     body {
         margin: 0;
-        background: rgb(91, 53, 32);
+        background: rgb(89, 44, 21); /* Deep brown color inspired by Ambon's earthy tones */
         position: relative;
         width: 100%;
     }
