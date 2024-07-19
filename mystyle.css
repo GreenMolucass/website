@@ -80,8 +80,6 @@ img {
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
-    white-space: nowrap;
-
    /* background-color: #116b3157 */
 }
 
@@ -187,7 +185,5 @@ li {
         padding-left: 20px;
         padding-right: 20px;
        /* background-color: #116b3157 */
-       white-space: nowrap;
-
     }
 }
