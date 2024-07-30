@@ -6,7 +6,7 @@ Todo----------------------------------------------------------------------------
 
  Migrate the https://greenmoluccas.id/bsah/ Bank sampah back-end!
 
- Add the a translate widget // make default indoneisan >> right now it is english because I have been working on it (-Ben the American).
+ Add a translate widget // make default indoneisan >> right now it is english because I have been working on it (-Ben the American).
 
 <br>
 ***PRIORITY MEDIUM:<br>
