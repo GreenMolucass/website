@@ -3,15 +3,15 @@ Todo----------------------------------------------------------------------------
 ***PRIORITY HIGH:<br>
  Migrate all information and capabilities (and photos) from https://greenmoluccas.id/
     (use google for fourms, sign ups, data, etc.?)
-<br>
+
  Migrate the https://greenmoluccas.id/bsah/ Bank sampah back-end !
-<br>
+
  Add the a translate widget // make default indoneisan >> right now it is english because I have been working on it (-Ben the American)
 
 <br>
 ***PRIORITY MEDIUM:<br>
 GM logo front page columns alignment, footer covering contents on mobile still
-<br>
+
 Transfer the "greenmoluccas.id" domain name to this new site. Deactivate / stop paying for the old one. (I think it might be good to go to google analytics with the codegreenmoluccas email and change the URL to the new one).
 
 <br>
