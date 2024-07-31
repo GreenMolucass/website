@@ -31,7 +31,11 @@ Setup for new programmers: -----------------------------------------------------
 
 4) clone respository 'https://github.com/GreenMoluccas/website.git'
 
-5) sign into github on VS code: https://stackoverflow.com/questions/42318673/changing-the-git-user-inside-visual-studio-code
+5) sign into github on VS code: Run these in your VS code terminal with your credentials
+git config --global user.email example@gmail.com
+git config --global user.name exampleUserName
+
+5.5) Have Ben (or whoever is in charge of the Green Moluccas official github account) to add your user name as a "collaborator".
 
 6) now you can stage and commit your edits
     (check edits in real time before commiting them by opening the .html file that you are working on locally from your File Explorer)
