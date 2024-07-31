@@ -31,8 +31,8 @@ Setup for new programmers: -----------------------------------------------------
 
 4) clone respository 'https://github.com/GreenMoluccas/website.git'
 
-5) sign into github on VS code: Run these in your VS code terminal with your credentials
-git config --global user.email example@gmail.com
+5) sign into github on VS code: Run these in your VS code terminal with your credentials: <br>
+git config --global user.email example@gmail.com <br>
 git config --global user.name exampleUserName
 
 5.5) Have Ben (or whoever is in charge of the Green Moluccas official github account) to add your user name as a "collaborator".
