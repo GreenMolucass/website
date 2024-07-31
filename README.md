@@ -40,7 +40,7 @@ git config --global user.name exampleUserName
 6) now you can stage and commit your edits
     (check edits in real time before commiting them by opening the .html file that you are working on locally from your File Explorer)
 
-INDONESIAN
+INDONESIAN <br>
 Todo------------------------------------------------------------------------------------------------------------------------------------
 
 <br><br>
