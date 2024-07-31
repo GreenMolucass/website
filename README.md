@@ -63,7 +63,7 @@ Hal-hal seperti sitemap.xml, CNAME....
 <br>
 <br>
 <br>
-**Pengaturan untuk programmer baru: ----------------------------------------------------------------------------------------------------------------------------------------**
+**Pengaturan untuk programmer baru: ----------------------------------------------------------------------------------------------------------------------------------------** <br>
 buat akun GitHub
 
 install VS Code
@@ -76,7 +76,7 @@ masuk ke GitHub di VS Code: Jalankan perintah berikut di terminal VS Code dengan
 git config --global user.email example@gmail.com <br>
 git config --global user.name exampleUserName
 
-5.5) Minta Ben (atau siapa pun yang bertanggung jawab atas akun GitHub resmi Green Moluccas) untuk menambahkan nama pengguna Anda sebagai "kolaborator".
+Minta Ben (atau siapa pun yang bertanggung jawab atas akun GitHub resmi Green Moluccas) untuk menambahkan nama pengguna Anda sebagai "kolaborator".
 
 Sekarang Anda dapat staging dan commit editan Anda
 (periksa editan secara real-time sebelum melakukan commit dengan membuka file .html yang sedang Anda kerjakan secara lokal dari File Explorer)
