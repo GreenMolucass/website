@@ -29,6 +29,12 @@ p {
    /* background-color: #116b3157 */
 }
 
+p2 {
+    color: #095b1f; /* Deep forest green color for headers */
+    font-size: 30px;
+    font-weight: bold;
+}
+
 html {
     text-align: center;
 }
