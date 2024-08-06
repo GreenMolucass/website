@@ -2,9 +2,7 @@ Todo----------------------------------------------------------------------------
 <br><br>
 ***PRIORITY HIGH:<br>
  Migrate all information and capabilities (and photos) from https://greenmoluccas.id/
-    (use google for fourms, sign ups, data, etc.?).
-
- Migrate the https://greenmoluccas.id/bsah/ Bank sampah back-end!
+    (use google for fourms, sign ups, data, backend, etc..).
 
  Add a translate widget // make default indoneisan >> right now it is english because I have been working on it (-Ben the American).
 
@@ -50,8 +48,6 @@ Todo----------------------------------------------------------------------------
 ***PRIORITAS TINGGI:<br>
 Migrasikan semua informasi dan kemampuan (serta foto) dari https://greenmoluccas.id/
 (gunakan Google untuk formulir, pendaftaran, data, dll.?).
-
-Migrasikan back-end Bank Sampah https://greenmoluccas.id/bsah/!
 
 Tambahkan widget terjemahan // buat bahasa default menjadi Indonesia >> saat ini dalam bahasa Inggris karena saya telah bekerja pada hal ini (-Ben si Amerika).
 
