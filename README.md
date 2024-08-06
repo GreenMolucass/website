@@ -8,7 +8,7 @@ Todo----------------------------------------------------------------------------
 
 <br>
 ***PRIORITY MEDIUM:<br>
-GM logo front page columns alignment, footer covering contents on mobile still.
+footer covering contents on mobile still.
 
 Transfer the "greenmoluccas.id" domain name to this new site. Deactivate / stop paying for the old one. (I think it might be good to go to google analytics with the codegreenmoluccas email and change the URL to the new one).
 
@@ -53,7 +53,7 @@ Tambahkan widget terjemahan // buat bahasa default menjadi Indonesia >> saat ini
 
 <br>
 ***PRIORITAS SEDANG:<br>
-Perbaiki penyelarasan kolom logo GM di halaman depan, footer yang menutupi konten di perangkat mobile masih ada.
+footer yang menutupi konten di perangkat mobile masih ada.
 Transfer nama domain "greenmoluccas.id" ke situs baru ini. Nonaktifkan / hentikan pembayaran untuk yang lama. (Saya pikir mungkin baik untuk beralih ke Google Analytics dengan kode email codegreenmoluccas dan mengubah URL ke yang baru).
 
 <br>
