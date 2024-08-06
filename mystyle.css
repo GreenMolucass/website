@@ -134,7 +134,7 @@ li {
     }
 
     .backtoTop{
-    position: fixed; bottom: 150px; right: 20px; color: #20ca5c; text-decoration: none; font-size: 35px; font-weight: bold; z-index: 1000;
+    position: fixed; bottom: 200px; right: 20px; color: #20ca5c; text-decoration: none; font-size: 35px; font-weight: bold; z-index: 1000;
 
     }
     canvas {
