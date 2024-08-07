@@ -6,7 +6,8 @@ Todo----------------------------------------------------------------------------
     Bank sampah portion of website - prices for trash types, logins (logins not needed?). Registration? ->Switch to google?
 
  Add a translate widget // make default indoneisan >> right now it is english because I have been working on it (-Ben the American).
-
+<br>
+make header top-nav and other things proportional to screen size (some screens it looks way too big, some it looks normal)
 <br>
 ***PRIORITY MEDIUM:<br>
 footer covering contents on mobile still.<br>
