@@ -9,6 +9,7 @@ Todo----------------------------------------------------------------------------
 <br>
 make header top-nav and other things proportional to screen size (some screens it looks way too big, some it looks normal)
 <br>
+<br>
 ***PRIORITY MEDIUM:<br>
 footer covering contents on mobile still.<br>
 On mobile the 'Green Moluccas'above the top nav is only bold/big on the inititives page, unsure why.
