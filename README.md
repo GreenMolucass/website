@@ -45,27 +45,6 @@ git config --global user.name exampleUserName
 <br>
 <br>
 INDONESIAN <br>
-Todo------------------------------------------------------------------------------------------------------------------------------------ *Mungkin tidak diperbarui, harap terjemahkan bahasa Inggris todo di atas*
-
-
-<br><br>
-***PRIORITAS TINGGI:<br>
-Migrasikan semua informasi dan kemampuan (serta foto) dari https://greenmoluccas.id/
-(gunakan Google untuk formulir, pendaftaran, data, dll.?).
-
-Tambahkan widget terjemahan // buat bahasa default menjadi Indonesia >> saat ini dalam bahasa Inggris karena saya telah bekerja pada hal ini (-Ben si Amerika).
-
-<br>
-***PRIORITAS SEDANG:<br>
-footer yang menutupi konten di perangkat mobile masih ada.
-Transfer nama domain "greenmoluccas.id" ke situs baru ini. Nonaktifkan / hentikan pembayaran untuk yang lama. (Saya pikir mungkin baik untuk beralih ke Google Analytics dengan kode email codegreenmoluccas dan mengubah URL ke yang baru).
-
-<br>
-***PRIORITAS RENDAH:<br>
-Hal-hal seperti sitemap.xml, CNAME....
-<br>
-<br>
-<br>
 **Pengaturan untuk programmer baru: ----------------------------------------------------------------------------------------------------------------------------------------** <br>
 buat akun GitHub
 
