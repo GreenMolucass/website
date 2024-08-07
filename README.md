@@ -8,7 +8,8 @@ Todo----------------------------------------------------------------------------
 
 <br>
 ***PRIORITY MEDIUM:<br>
-footer covering contents on mobile still.
+footer covering contents on mobile still.<br>
+On mobile the 'Green Moluccas'above the top nav is only bold/big on the inititives page, unsure why.
 
 Transfer the "greenmoluccas.id" domain name to this new site. Deactivate / stop paying for the old one. (I think it might be good to go to google analytics with the codegreenmoluccas email and change the URL to the new one).
 
@@ -42,7 +43,8 @@ git config --global user.name exampleUserName
 <br>
 <br>
 INDONESIAN <br>
-Todo------------------------------------------------------------------------------------------------------------------------------------
+Todo------------------------------------------------------------------------------------------------------------------------------------ *Mungkin tidak diperbarui, harap terjemahkan bahasa Inggris todo di atas*
+
 
 <br><br>
 ***PRIORITAS TINGGI:<br>
