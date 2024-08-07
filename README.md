@@ -2,10 +2,11 @@ Todo----------------------------------------------------------------------------
 <br><br>
 ***PRIORITY HIGH:<br>
  Migrate all articles and photos from https://greenmoluccas.id/
-    (use google for fourms like mangrove adoption and donation, (more?).
-    Bank sampah portion of website - prices for trash types, logins (logins not needed?). Registration? ->Switch to google?
+    (use google for fourms like mangrove adoption and donation, (more?). <br>
+    Bank sampah portion of website - prices for trash types, logins (logins not needed?). Registration? ->Switch to google?<br>
 
  Add a translate widget // make default indoneisan >> right now it is english because I have been working on it (-Ben the American).
+<br>
 <br>
 make header top-nav and other things proportional to screen size (some screens it looks way too big, some it looks normal)
 <br>
